@@ -1,6 +1,6 @@
 CREATE DATABASE `BookstoreDB`;
-
 USE `BookstoreDB`;
+
 
 CREATE TABLE `Books` (
     `ISBN` VARCHAR(13) PRIMARY KEY,
