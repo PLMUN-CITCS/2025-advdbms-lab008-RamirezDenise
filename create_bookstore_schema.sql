@@ -2,7 +2,7 @@ CREATE DATABASE BookstoreDB;
 USE BookstoreDB;
 
 CREATE TABLE Books (
-    ISBN VARCHAR(13) PRIMARY KEY,  -- ISBN is typically a string
+    ISBN VARCHAR(13) PRIMARY KEY,  
     Title VARCHAR(255) NOT NULL,
     Price DECIMAL(10, 2) NOT NULL
 );
