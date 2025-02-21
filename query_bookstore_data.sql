@@ -1,4 +1,6 @@
+CREATE DATABASE `BookstoreDB`;
 USE `BookstoreDB`;
+
 
 SELECT `c`.`Name` AS `CustomerName`, `o`.`OrderDate`, `b`.`Title` AS `BookTitle`, `od`.`Quantity`
 FROM `Customers` `c`
